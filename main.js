@@ -71,3 +71,6 @@ but.addEventListener("click", () => {
     }
   });
 });
+
+const year = (document.querySelector(".copyright span ").innerHTML =
+  new Date().getFullYear());
